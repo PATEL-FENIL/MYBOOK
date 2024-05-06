@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyBook</string>
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us_content">Welcome to MYBOOK!\n\nThank you for joining us on this journey of exploration and learning. MYBOOK is more than just an app; it\'s a platform designed to ignite your passion for learning, particularly in the realms of Data Structures and Algorithms (DSA) and Aptitude Problem solving.\n\nAs a student of L.D. Engineering College, I have always been fascinated by the world of technology, particularly in the realm of Android Development. MYBOOK is a testament to my dedication to this field, representing a small yet meaningful project that I\'ve poured my heart and soul into.\n\nWithin MYBOOK, you\'ll find a treasure trove of resources aimed at helping you enhance your problem-solving skills. Whether you\'re grappling with complex algorithms or tackling challenging aptitude problems, MYBOOK is here to support you every step of the way.\n\nHowever, no project is without its challenges. If you encounter any difficulties while using MYBOOK, don\'t hesitate to reach out. Your feedback is invaluable and helps us improve the app for everyone. Feel free to email me with any problems or suggestions you may have, and I\'ll do my utmost to address them promptly.\n\n<b>Please note that the books available on MYBOOK are limited to those in my personal collection. If you require specific titles that are not currently available, please email me with the source, and I will endeavor to include them in future updates.</b>\n\nOnce again, welcome to MYBOOK. I hope you find it to be a valuable companion on your learning journey. Happy reading and problem-solving!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

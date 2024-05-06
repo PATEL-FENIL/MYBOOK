@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/sidemenu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5E35B1"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:navigationIcon="@drawable/baseline_menu_24"
+                app:title="Toolbars"
+                app:titleMarginStart="10dp"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+                <!-- Image Layout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="84dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        app:srcCompat="@drawable/engineering"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <!-- Space for separation -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+
+                <!-- Buttons Layout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/IT"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:backgroundTint="#246D91"
+                        android:text="IT Engineering"
+                        android:textColor="#FBF7F7"
+                        android:textSize="12sp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/Comp"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#13A193"
+                        android:gravity="center"
+                        android:text="Computer Engineering"
+                        android:textColor="#F8F4F4"
+                        android:textSize="12sp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="HardcodedText,TextSizeCheck,VisualLintButtonSize" />
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+
+                <!-- Buttons Layout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/dsa"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:backgroundTint="#F6420A"
+                        android:text="DSA"
+                        android:textColor="#FBF7F7"
+                        android:textSize="12sp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/aptitude"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#0E2FFB"
+                        android:gravity="center"
+                        android:text="Aptitude"
+                        android:textColor="#F8F4F4"
+                        android:textSize="12sp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "486833778431",
+    "firebase_url": "https://mybook-ffe78-default-rtdb.firebaseio.com",
+    "project_id": "mybook-ffe78",
+    "storage_bucket": "mybook-ffe78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486833778431:android:c547f34403d1ab63a7e6ca",
+        "android_client_info": {
+          "package_name": "com.fenilcode.mybook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJFvMI4ubc2wnbVPsMAbcDulxsPLRyxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

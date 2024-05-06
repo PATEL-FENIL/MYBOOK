@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ITSem_7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/aml"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/aml"
+                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/agile"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/agile"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/bc"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/bc"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/cv"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/cv"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/spm"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/spm"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ir"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/ir"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/iot"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/iot"
+                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/iswa"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/iswa"
+                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck" />
+
+
+            <ImageButton
+                android:id="@+id/wc"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#424242"
+                android:src="@drawable/wc"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

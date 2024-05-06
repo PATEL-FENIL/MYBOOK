@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputerSem_1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <ImageButton
+                android:id="@+id/Math_1"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#5FA9B2"
+                android:src="@drawable/mathematic_1"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/bme"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#F8F6F6"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/bme"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/bee"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#0C1C7F"
+                android:src="@drawable/bee"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/physics_2"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#F6F1F1"
+                android:src="@drawable/phy_2"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+            <!--<&#45;&#45;-->
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/english"-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="400dp"-->
+            <!--                android:layout_margin="25dp"-->
+            <!--                android:layout_marginLeft="25dp"-->
+            <!--                android:layout_marginTop="25dp"-->
+            <!--                android:layout_marginRight="25dp"-->
+            <!--                android:layout_marginBottom="15dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />-->
+            <!-- &ndash;&gt;-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

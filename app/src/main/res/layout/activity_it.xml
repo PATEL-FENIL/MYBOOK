@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/call_it_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1937EB"
+    android:orientation="vertical"
+    tools:context=".IT">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/it_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5E35B1"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="I.T. Department"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold|italic" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- ScrollView added after Toolbar -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- LinearLayout containing four linear layouts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- First Linear Layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- First Button -->
+                <Button
+                    android:id="@+id/sem_1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 1"
+                    android:textColor="#F8FAFB"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <!-- Space between buttons -->
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Second Button -->
+                <Button
+                    android:id="@+id/sem_2"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 2"
+                    android:textColor="#F7F9F9"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <!-- Second Linear Layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- First Button -->
+                <Button
+                    android:id="@+id/sem_3"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 3"
+                    android:textColor="#F9FBFB"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <!-- Space between buttons -->
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Second Button -->
+                <Button
+                    android:id="@+id/sem_4"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 4"
+                    android:textColor="#F9FBFB"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <!-- Third Linear Layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- First Button -->
+                <Button
+                    android:id="@+id/sem_5"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 5"
+                    android:textColor="#F9FBFB"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <!-- Space between buttons -->
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Second Button -->
+                <Button
+                    android:id="@+id/sem_6"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 6"
+                    android:textColor="#F9FBFB"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <!-- Fourth Linear Layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- Empty View -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!-- Space between buttons -->
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <!-- First Button -->
+                <Button
+                    android:id="@+id/sem_7"
+                    android:layout_width="66dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F4511E"
+                    android:fontFamily="monospace"
+                    android:text="Semester 7"
+                    android:textColor="#F9FBFB"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <!-- Empty View -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

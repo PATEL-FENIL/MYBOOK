@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFBFC"
+    tools:context=".ITSem_5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <ImageButton
+                android:id="@+id/ipdc_1"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#D4D4D4"
+                android:src="@drawable/ipdc"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/ada"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/ada"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/cn"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:src="@drawable/cn"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/cs"-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="400dp"-->
+            <!--                android:layout_margin="25dp"-->
+            <!--                android:layout_marginLeft="25dp"-->
+            <!--                android:layout_marginTop="25dp"-->
+            <!--                android:layout_marginRight="25dp"-->
+            <!--                android:layout_marginBottom="15dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />-->
+
+            <ImageButton
+                android:id="@+id/pe"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:src="@drawable/pe"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/wd"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#D6D1D1"
+                android:src="@drawable/wd"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/data_science"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="#CFC6C6"
+                android:src="@drawable/data_science"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
